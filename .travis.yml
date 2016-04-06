@@ -12,7 +12,7 @@ deploy:
   skip_cleanup: true
   provider: heroku
   api_key:
-    secure: "f0085daf-c5b2-4e67-89bd-d4ce7f85ebe4"
+    secure: f0085daf-c5b2-4e67-89bd-d4ce7f85ebe4
   
 after_success:
   - mvn clean cobertura:cobertura coveralls:cobertura
