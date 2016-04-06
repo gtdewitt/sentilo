@@ -1,6 +1,6 @@
 # .travis.yml
 # Configure Travis CI service to build Sentilo platform, http://github.com/sentilo/sentilo
-#
+# First Travis build
 language: java
 
 jdk:
